@@ -1,9 +1,9 @@
 <hibernate-configuration>
     <session-factory>
         <property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>
-        <property name="connection.url">jdbc:mysql://localhost:3306/tickets_db?serverTimezone=UTC</property>
-        <property name="connection.username">java</property>
-        <property name="connection.password">java</property>
+        <property name="connection.url">[PUT_HERE_YOUR_JDBC_URL]</property>
+        <property name="connection.username">[PUT_HERE_YOUR_USERNAME]</property>
+        <property name="connection.password">[PUT_HERE_YOUR_PASSWORD]</property>
         <property name="show_sql">true</property>
         <property name="hbm2ddl.auto">create-drop</property>
         <mapping class="mate.academy.model.Movie"/>
